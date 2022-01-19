@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&family=Vujahday+Script&display=swap');
+
+
+
+.nav-item a{
+    color:black;
+  }
+  .nav-item a:hover{
+    color: rgb(84, 173, 84);
+  }
+
+  header{
+    background-image: url("/projects/main img/home-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:100vw 100vh;
+ width: 100vw;
+
+  }
+.fs-4{
+color: black;
+box-shadow: 10px 5px 5px 10px grey;
+font-size: 2.5rem;
+font-weight: bolder;
+margin-right: auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.2s linear;
+}
+.color{
+  color: rgb(17, 192, 17);
+}
+
+.card a{
+  text-decoration: none;
+  color: black;
+}
+.title-content {
+  margin-top: 30px;
+}
+footer{
+  background-color: #17406c;
+color: white;
+width: 100vw;
+}
+
+.reviews{
+  display: flex;
+  height: 88%;
+  align-items: center;
+
+}
+.cols{
+  flex-basis: 60%;
+
+}
+ .heading{
+  font-size:40px;
+  margin-left: 100px;
+
+  
+}
+.card{
+  width: 40%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+transition: transform 0.5s;
+}
+.card p{
+  font-size: 15px;
+  line-height: 15px;
+
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.checked {
+  color: orange;
+}
+.visible{
+  visibility: hidden;
+}
+.box1{
+  margin-left: 550px;
+  margin-bottom: 200px;
+  line-height: 2;
+}
+footer.my-4{
+  margin-bottom: 0px !important;
+}
+.view{
+  margin-left: 120px;
+}
